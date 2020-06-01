@@ -16,7 +16,7 @@ span{
 header{
     padding: 0 24px;
     display: flex;
-    background-color:sienna;
+    background-color:white;
     height: 64px;
     box-sizing: content-box;
     justify-content: baseline;
@@ -35,7 +35,27 @@ ul{
     display: flex;
     font-size: 32px;
     justify-content: flex-end;
+    box-sizing: border-box;
 }
 li{
     margin-left: 24px;
+}
+
+
+
+#bannerPage{
+    
+    background-color: rgb(194, 194, 194);
+    display: flex;
+}
+
+#bannerPage img{
+    width: 60%;
+    height: auto;
+    margin: 32px 24px 32px 24px;
+}
+
+#bannerPage div{
+    text-align: center;
+    margin: auto 0;
 }
