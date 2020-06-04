@@ -4,6 +4,7 @@ html{
 
 
 body{
+    font-family: Roboto;
     margin: 0 0;
 }
 
@@ -44,8 +45,8 @@ li{
 
 
 #bannerPage{
-    
-    background-color: rgb(194, 194, 194);
+    color: dimgray;
+    background-color: rgb(241, 241, 241);
     display: flex;
 }
 
@@ -56,6 +57,46 @@ li{
 }
 
 #bannerPage div{
-    text-align: center;
+    text-align: left;
     margin: auto 0;
+}
+
+#bannerPage div h1{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+#bannerPage div span{
+    line-height: 1.4em;
+}
+
+#bannerPage button{
+    margin-top: 1em;
+    display: block;
+    position: static;
+    background-color: gray;
+    width: 27em;
+    height: 3em;
+    border: none;
+    font-size: 15px;
+    box-sizing: border-box;}
+
+
+#news div{
+    padding: 32px 24px;
+    width: 60%;
+}    
+
+#news div img{
+    width: 100%;
+}
+
+
+#courses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course{
+    margin:32px 16px;
 }
